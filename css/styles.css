@@ -8,6 +8,8 @@
     --dark-bg-color: #2F303A;
     --light-gray-bg-color: #E5E5E5;
     --gray-bg-color: #F5F4FA;
+
+
 }    
 body {
    color:var(--primary-text-color);
@@ -20,6 +22,9 @@ body {
 }
 
 /* header */
+.page-hader{
+    background-color:var(--white-color);
+}
 .logo {
     color:var(--black-color);
 }
@@ -95,4 +100,22 @@ body {
 }
 .team {
     background-color:var(--light-gray-bg-color);
+}
+
+/* page-portfolio */
+.portfolio{
+    background-color:var(--white-color);   
+}
+.filter .button {
+    background-color:var(--gray-bg-color);
+    color:var(--title-text-color);
+}
+.filter .current{
+    background-color:var(--accent-color);
+    color:var(--white-color);
+}
+.filter .button:hover,
+.filter .button:focus {
+    background-color:var(--accent-color);
+    color:var(--white-color);
 }
