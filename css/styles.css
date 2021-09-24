@@ -1,15 +1,14 @@
 :root {
-    --primary-text-color:#757575;
+    --primary-text-color: #757575;
     --title-text-color: #212121;
-    --accent-color-1:#2196F3;
-    --accent-color-2:#ffffff;
-    --accent-color-3:rgba(255, 255, 255, 0.6);
-    --accent-color-4: #000000; /* nav */
-    --background-color:#2F303A;
-    --background-color-1:#E5E5E5;
-    --background-color-2:#F5F4FA;;
-    
-} 
+    --accent-color: #2196F3;
+    --white-color: #ffffff;
+    --transparent-white-color: rgba(255, 255, 255, 0.6);
+    --black-color: #000000;
+    --dark-bg-color: #2F303A;
+    --light-gray-bg-color: #E5E5E5;
+    --gray-bg-color: #F5F4FA;
+}    
 body {
    color:var(--primary-text-color);
 }
@@ -22,10 +21,10 @@ body {
 
 /* header */
 .logo {
-    color:var(--accent-color-4);
+    color:var(--black-color);
 }
 .logo-item {
-    color:var(--accent-color-1);
+    color:var(--accent-color);
 }
 .site-nav .link {
     color:var(--title-text-color);
@@ -34,30 +33,30 @@ body {
 .site-nav .link:focus,
 .contacts .link:hover,
 .contacts .link:focus  {
-    color:var(--accent-color-1);
+    color:var(--accent-color);
 }
 .site-nav .link.current {
-    color:var(--accent-color-1);
+    color:var(--accent-color);
 }
 .contacts .link {
     color:var(--primary-text-color);   
 }
 .contacts .link:hover,
 .contacts .link:focus {
-    color:var(--accent-color-1);
+    color:var();
 }
 
 /* footer */
 .footer {
-    background-color:var( --background-color);
+    background-color:var(--dark-bg-color);
 }
 .footer .logo {
-    color:var(--accent-color-2);
+    color:var(--white-color);
 }
 .address-info .address,
 .address-info .mail,
 .address-info .phone {
-    color:var(--accent-color-3);
+    color:var(--transparent-white-color);
 }
 .address-info .address:hover, 
 .address-info .address:focus,
@@ -65,15 +64,15 @@ body {
 .address-info .mail:focus,
 .address-info .phone:hover, 
 .address-info .phone:focus {
-    color:var(--accent-color-2);
+    color:var(--white-color);
 }
 
 /* main */
 .hero {
-    background-color:var(--background-color);
+    background-color:var(--dark-bg-color);
 }
 .hero .hero-title{
-    color:var(--accent-color-2);
+    color:var(--white-color);
 }
 .list .list-title,
 .section .section-title {
@@ -83,17 +82,17 @@ body {
 .button {
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 
-.button.primary { 
-    /* элемент с двумя классами */
-    color:var(--accent-color-2);
-    background-color:var(--accent-color-1);
+.button.primary { /*! обрацаюсь к элемент с двумя этими классами классами */
+    color:var(--white-color);
+    background-color:var();
 }
 .advantages,
 .what-we-do {
-    background-color:var(--background-color-2);
+    background-color:var(--gray-bg-color);
 }
 .team {
-    background-color:var(--background-color-1);
+    background-color:var(--light-gray-bg-color);
 }
