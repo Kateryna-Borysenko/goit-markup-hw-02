@@ -9,10 +9,14 @@
     --light-gray-bg-color: #E5E5E5;
     --gray-bg-color: #F5F4FA;
 
+    --primary-font-family: 'Roboto';
+    --accent-font-family: 'Raleway';
 
 }    
 body {
    color:var(--primary-text-color);
+
+   font-family:var(--primary-font-family);
 }
 .list {
     list-style: none;
@@ -27,13 +31,24 @@ body {
 }
 .logo {
     color:var(--black-color);
+
+    font-family:var(--accent-font-family);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
 }
 .logo-item {
     color:var(--accent-color);
 }
-.site-nav .link {
+.site-nav .link,
+.contacts .link {
     color:var(--title-text-color);
+
+    font-weight: 500;
+    font-style: 14px;
+    line-height: 1.17;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contacts .link:hover,
@@ -44,11 +59,73 @@ body {
     color:var(--accent-color);
 }
 .contacts .link {
-    color:var(--primary-text-color);   
+    color:var(--primary-text-color); 
 }
-.contacts .link:hover,
-.contacts .link:focus {
-    color:var();
+
+
+/* main */
+.hero {
+    background-color:var(--dark-bg-color);
+}
+.hero .hero-title{
+    color:var(--white-color);
+
+    font-weight: 900;
+    font-style: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    text-align: center;
+}
+.list .list-title,
+.section .section-title {
+    color:var(--title-text-color);
+}
+.list .list-title{
+    font-weight: 700;
+    font-style: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+.list .description{
+    font-style: 14px;
+    line-height: 2;
+}
+.button {
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-family: inherit;
+}
+.button.primary { /*! обращаюсь к элемент с двумя этими классами классами */
+    color:var(--white-color);
+    background-color:var(--accent-color);
+
+    font-weight: 700;
+    font-style: 16px;
+    line-height: 1.88;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}
+.position-item .list-title {
+    font-weight: 500;
+    font-style: 16px;
+    line-height: 1.17;
+    text-transform: none;
+}
+.position-item .description {
+    font-size: 16px;
+    line-height: 1.17;
+}
+.advantages,
+.what-we-do {
+    background-color:var(--gray-bg-color);
+}
+.team {
+    background-color:var(--light-gray-bg-color);
 }
 
 /* footer */
@@ -71,35 +148,10 @@ body {
 .address-info .phone:focus {
     color:var(--white-color);
 }
-
-/* main */
-.hero {
-    background-color:var(--dark-bg-color);
-}
-.hero .hero-title{
-    color:var(--white-color);
-}
-.list .list-title,
-.section .section-title {
-    color:var(--title-text-color);
-}
-
-.button {
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.button.primary { /*! обращаюсь к элемент с двумя этими классами классами */
-    color:var(--white-color);
-    background-color:var(--accent-color);
-}
-.advantages,
-.what-we-do {
-    background-color:var(--gray-bg-color);
-}
-.team {
-    background-color:var(--light-gray-bg-color);
+.address-info .link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 2;
 }
 
 /* page-portfolio */
