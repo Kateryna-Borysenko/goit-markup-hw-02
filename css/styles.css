@@ -45,7 +45,7 @@ body {
     color:var(--title-text-color);
 
     font-weight: 500;
-    font-style: 14px;
+    font-size: 14px;
     line-height: 1.17;
 }
 
@@ -82,13 +82,13 @@ body {
 }
 .list .list-title{
     font-weight: 700;
-    font-style: 14px;
+    font-size: 14px;
     line-height: 1.17;
     text-transform: uppercase;
 }
-.list .description{
-    font-style: 14px;
-    line-height: 2;
+.advantages .description{
+    font-size: 14px;
+    line-height: 1.71;
 }
 .button {
     border: none;
@@ -112,7 +112,7 @@ body {
 }
 .position-item .list-title {
     font-weight: 500;
-    font-style: 16px;
+    font-size: 16px;
     line-height: 1.17;
     text-transform: none;
 }
@@ -151,7 +151,7 @@ body {
 .address-info .link {
     font-style: normal;
     font-size: 14px;
-    line-height: 2;
+    line-height: 1.71;
 }
 
 /* page-portfolio */
