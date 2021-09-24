@@ -155,14 +155,18 @@ body {
 }
 
 /* page-portfolio */
-.portfolio{
+.portfolio {
     background-color:var(--white-color);   
 }
 .filter .button {
     background-color:var(--gray-bg-color);
     color:var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
-.filter .current{
+.filter .current {
     background-color:var(--accent-color);
     color:var(--white-color);
 }
@@ -170,4 +174,13 @@ body {
 .filter .button:focus {
     background-color:var(--accent-color);
     color:var(--white-color);
+}
+.portfolio-item .list-title {
+    text-transform: none;
+    font-size: 18px;
+    line-height: 2;
+}
+.portfolio-item .description {
+    font-size: 16px;
+    line-height: 1.9;
 }
