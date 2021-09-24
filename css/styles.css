@@ -47,10 +47,10 @@ body {
 }
 
 /* footer */
-.footer {
+.page-footer {
     background-color:var(--dark-bg-color);
 }
-.footer .logo {
+.page-footer .logo {
     color:var(--white-color);
 }
 .address-info .address,
@@ -85,9 +85,9 @@ body {
     cursor: pointer;
 }
 
-.button.primary { /*! обрацаюсь к элемент с двумя этими классами классами */
+.button.primary { /*! обращаюсь к элемент с двумя этими классами классами */
     color:var(--white-color);
-    background-color:var();
+    background-color:var(--accent-color);
 }
 .advantages,
 .what-we-do {
