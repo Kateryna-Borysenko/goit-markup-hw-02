@@ -36,6 +36,7 @@ body {
     font-size: 26px;
     font-weight: 700;
     line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .logo-item {
     color:var(--accent-color);
@@ -47,6 +48,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -74,6 +76,7 @@ body {
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+    letter-spacing: 0.06em;
     text-align: center;
 }
 .list .list-title,
@@ -84,11 +87,13 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .advantages .description{
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .button {
     border: none;
@@ -104,21 +109,25 @@ body {
     font-weight: 700;
     font-style: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 .section-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .position-item .list-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
     text-transform: none;
+    letter-spacing: 0.03em;
 }
 .position-item .description {
     font-size: 16px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 .advantages,
 .what-we-do {
@@ -152,6 +161,7 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* page-portfolio */
@@ -165,6 +175,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    letter-spacing: 0.03em;
 }
 .filter .current {
     background-color:var(--accent-color);
@@ -179,8 +190,10 @@ body {
     text-transform: none;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .portfolio-item .description {
     font-size: 16px;
     line-height: 1.9;
+    letter-spacing: 0.03em;
 }
